@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <stdarg.h>
 
-int checkBit(unsigned num,unsigned *sum){
+void checkBit(unsigned num,unsigned *sum){
     while(num != 0){
 		if(num & 1 == 1){ 
 			*sum++;
