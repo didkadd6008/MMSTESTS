@@ -1,0 +1,7 @@
+1. ps aux | wc -l
+2. mkdir MMSCCAMP
+   cp /home/didi/MMS/Test/*.c /home/didi/MMS/Test/MMSCCAMP
+   pwd
+   rm -r [0-9]*
+   3.chmod u=rwx,g=rx,o=r  test.file
+   4. wc -l source1.c source2.c > linecount
